@@ -1,1 +1,1 @@
-# itc_datascience_project
+# ITC Datascience Project
