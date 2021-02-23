@@ -49,7 +49,7 @@ def main():
         tweets['company_name'] = company.Name
         tweets['company_sector'] = company.Sector
         tweets['text'] = tweets['text'].str.replace('\n', '')
-        tweets.to_csv('tweets.csv', mode='a', header=False, index=False)
+        tweets.to_csv('tweets2.csv', mode='a', header=False, index=False)
 
 
 if __name__ == '__main__':
